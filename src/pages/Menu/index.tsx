@@ -1,10 +1,13 @@
 import React from "react";
 import { View, StyleSheet, SafeAreaView, Text } from "react-native";
 import { droidSafeArea } from "../styles";
+import HeaderComponent from "../../components/Header";
+
 
 const Menu = () => {
    return (
     <SafeAreaView style={styles.droidSafeArea}>
+      <HeaderComponent />
       <View style={styles.container}>
         <View style={styles.main}>
             <Text style={{color: '#FFF'}}>Menu</Text>
